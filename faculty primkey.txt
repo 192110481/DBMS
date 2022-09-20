@@ -1,0 +1,17 @@
+mysql>  alter table faculty add primary key value(facno);
+Query OK, 1 row affected (0.04 sec)
+Records: 1  Duplicates: 0  Warnings: 0
+
+mysql> desc faculty;
++---------+----------+------+-----+---------+-------+
+| Field   | Type     | Null | Key | Default | Extra |
++---------+----------+------+-----+---------+-------+
+| facno   | int(3)   | NO   | PRI | 0       |       |
+| facname | char(15) | YES  |     | NULL    |       |
+| gender  | char(1)  | YES  |     | NULL    |       |
+| dob     | int(10)  | YES  |     | NULL    |       |
+| mobno   | int(10)  | YES  |     | NULL    |       |
+| doj     | int(10)  | YES  |     | NULL    |       |
+| dept    | char(10) | YES  |     | NULL    |       |
++---------+----------+------+-----+---------+-------+
+7 rows in set (0.03 sec)
