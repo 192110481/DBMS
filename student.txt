@@ -1,0 +1,15 @@
+mysql>  create table kk(regno int(3),name char(15),gender char(1),dob int(10),mobno int(10),city char(10));
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> desc kk;
++--------+----------+------+-----+---------+-------+
+| Field  | Type     | Null | Key | Default | Extra |
++--------+----------+------+-----+---------+-------+
+| regno  | int(3)   | YES  |     | NULL    |       |
+| name   | char(15) | YES  |     | NULL    |       |
+| gender | char(1)  | YES  |     | NULL    |       |
+| dob    | int(10)  | YES  |     | NULL    |       |
+| mobno  | int(10)  | YES  |     | NULL    |       |
+| city   | char(10) | YES  |     | NULL    |       |
++--------+----------+------+-----+---------+-------+
+6 rows in set (0.03 sec)S
