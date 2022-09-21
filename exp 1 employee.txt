@@ -1,0 +1,12 @@
+create table employee(empid int(10),empname char(10),empadd char(15),empsalary int(20),empdoj int(10));
+mysql> desc employee;
++-----------+----------+------+-----+---------+-------+
+| Field     | Type     | Null | Key | Default | Extra |
++-----------+----------+------+-----+---------+-------+
+| empid     | int(10)  | NO   | PRI | 0       |       |
+| empname   | char(10) | YES  |     | NULL    |       |
+| empadd    | char(15) | YES  |     | NULL    |       |
+| empsalary | int(20)  | YES  |     | NULL    |       |
+| empdoj    | int(10)  | YES  |     | NULL    |       |
++-----------+----------+------+-----+---------+-------+
+5 rows in set (0.05 sec)
